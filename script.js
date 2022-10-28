@@ -35,15 +35,15 @@ video.addEventListener('play', () => {
       const drawBox = new faceapi.draw.DrawBox(box, {label: 'Face'})
       drawBox.draw(canvas)
       // box의 좌표 값과 너비, 길이를 콘솔창에 출력
-      console.log(Math.ceil(box.x));
+      console.log(box.x);
 
        // 얼굴 좌표값 인식후 페이지 넘김
-      if(box.x < 50 ){
+      if(box.x < 0.29 ){
         //console.log("합격");
         location.href="https://yeso.spaceedu.co.kr/html/index_AI.html"
       }
   })
-  }, 500)
+  }, 800)
   
  
 })
