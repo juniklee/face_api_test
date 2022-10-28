@@ -43,7 +43,7 @@ video.addEventListener('play', () => {
         location.href="https://yeso.spaceedu.co.kr/html/index_AI.html"
       }
   })
-  }, 100)
+  }, 500)
   
  
 })
